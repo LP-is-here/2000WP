@@ -280,6 +280,11 @@ document.body.background = "https://media.gettyimages.com/id/1307713/photo/billi
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#a6a6a6!important;}</style>";
 
+quotes = ["”Politics is not about power.” - Paul Wellstone", "Dedicated to Paul Wellstone", "”Politics is not about power.” - Paul Wellstone", "”I'd like to think of myself as the flavor of the decade.” - Ron Paul", "”I'd like to think of myself as the flavor of the decade.” - Ron Paul", "”I’m mad as hell and not gonna take it anymore!”", "Dedicated to Paul Wellstone"]
+            customquote = quotes[Math.floor((Math.random() * quotes.length))]
+
+            corrr = `\n<h2>The New Campaign Trail</h2><font id='wittyquote' size='3.5' color='#ffffff'><em>` + customquote + `</em></font>`
+
 //#endcode
 // Soundtrack
 
