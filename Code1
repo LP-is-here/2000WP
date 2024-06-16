@@ -1,3 +1,28 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
 campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
@@ -112,7 +137,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 50004,
+        "pk": 50005,
         "fields": {
             "first_name": "Pete",
             "last_name": "Wilson",
@@ -135,7 +160,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 50005,
+        "pk": 50004,
         "fields": {
             "first_name": "Bob",
             "last_name": "Barr",
@@ -169,10 +194,18 @@ campaignTrail_temp.running_mate_json = [
     },
     {
         "model": "campaign_trail.running_mate",
-        "pk": 101675,
+        "pk": 154606,
         "fields": {
             "candidate": 50001,
             "running_mate": 50005
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 101675,
+        "fields": {
+            "candidate": 50001,
+            "running_mate": 50004
         }
     },
     {
@@ -182,43 +215,10 @@ campaignTrail_temp.running_mate_json = [
             "candidate": 50000,
             "running_mate": 50003
         }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 107851,
-        "fields": {
-            "candidate": 50001,
-            "running_mate": 50004
-        }
     }
 ]
 
 campaignTrail_temp.credits = "AuH₂O"
-
-campaignTrail_temp.global_parameter_json = [
-    {
-        "model": "campaign_trail.global_parameter",
-        "pk": 1,
-        "fields": {
-            "vote_variable": 1.125,
-            "max_swing": 0.12,
-            "start_point": 0.94,
-            "candidate_issue_weight": 10,
-            "running_mate_issue_weight": 3,
-            "issue_stance_1_max": -0.71,
-            "issue_stance_2_max": -0.3,
-            "issue_stance_3_max": -0.125,
-            "issue_stance_4_max": 0.125,
-            "issue_stance_5_max": 0.3,
-            "issue_stance_6_max": 0.71,
-            "global_variance": 0.01,
-            "state_variance": 0.005,
-            "question_count": 25,
-            "default_map_color_hex": "#C9C9C9",
-            "no_state_map_color_hex": "#999999"
-        }
-    }
-]
 
 campaignTrail_temp.opponents_default_json = [
     {
@@ -255,7 +255,7 @@ jet_data = {
     "containerColor": "#6869a6",
     "innerWindowColor": "#a6a6a6",
     "bannerImageUrl": "https://i.imgur.com/8G3laAT.png",
-    "backgroundImageUrl": "https://i.pinimg.com/originals/77/72/f5/7772f519407c0900fbeece5eb3ef6164.jpg",
+    "backgroundImageUrl": "https://media.gettyimages.com/id/1307713/photo/billionaires-for-bush-gore-protest-july-30-in-philadelphia-as-part-of-the-unity-2000-protest.jpg?s=612x612&w=0&k=20&c=LlpxEs1UstmubgeTmLZsjolmZlBAWxbit3_ver1SVi8=",
     "endingTextColor": "#000000",
     "customQuote": ""
 }
@@ -276,7 +276,7 @@ $(".container")[0].style.backgroundColor = "#6869a6";
 
 document.getElementById("header").src = "https://i.imgur.com/8G3laAT.png";
 
-document.body.background = "https://i.pinimg.com/originals/77/72/f5/7772f519407c0900fbeece5eb3ef6164.jpg";
+document.body.background = "https://media.gettyimages.com/id/1307713/photo/billionaires-for-bush-gore-protest-july-30-in-philadelphia-as-part-of-the-unity-2000-protest.jpg?s=612x612&w=0&k=20&c=LlpxEs1UstmubgeTmLZsjolmZlBAWxbit3_ver1SVi8=";
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#a6a6a6!important;}</style>";
 
