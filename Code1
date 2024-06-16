@@ -169,18 +169,10 @@ campaignTrail_temp.running_mate_json = [
     },
     {
         "model": "campaign_trail.running_mate",
-        "pk": 154606,
-        "fields": {
-            "candidate": 50001,
-            "running_mate": 50005
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
         "pk": 101675,
         "fields": {
             "candidate": 50001,
-            "running_mate": 50004
+            "running_mate": 50005
         }
     },
     {
@@ -189,6 +181,14 @@ campaignTrail_temp.running_mate_json = [
         "fields": {
             "candidate": 50000,
             "running_mate": 50003
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 107851,
+        "fields": {
+            "candidate": 50001,
+            "running_mate": 50004
         }
     }
 ]
@@ -253,7 +253,7 @@ jet_data = {
     "headerColor": "#b1485d",
     "windowColor": "#a6a6a6",
     "containerColor": "#6869a6",
-    "innerWindowColor": "#E8FBFF",
+    "innerWindowColor": "#a6a6a6",
     "bannerImageUrl": "https://i.imgur.com/8G3laAT.png",
     "backgroundImageUrl": "https://i.pinimg.com/originals/77/72/f5/7772f519407c0900fbeece5eb3ef6164.jpg",
     "endingTextColor": "#000000",
@@ -278,7 +278,7 @@ document.getElementById("header").src = "https://i.imgur.com/8G3laAT.png";
 
 document.body.background = "https://i.pinimg.com/originals/77/72/f5/7772f519407c0900fbeece5eb3ef6164.jpg";
 
-document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#E8FBFF!important;}</style>";
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#a6a6a6!important;}</style>";
 
 quotes = ["”Politics is not about power.” - Paul Wellstone", "Dedicated to Paul Wellstone", "”Politics is not about power.” - Paul Wellstone", "”I'd like to think of myself as the flavor of the decade.” - Ron Paul", "”I'd like to think of myself as the flavor of the decade.” - Ron Paul", "”I’m mad as hell and not gonna take it anymore!”", "Dedicated to Paul Wellstone"]
             customquote = quotes[Math.floor((Math.random() * quotes.length))]
